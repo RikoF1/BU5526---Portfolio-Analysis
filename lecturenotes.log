@@ -1,0 +1,117 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  28 JAN 2023 22:52
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/rodmi/OneDrive - University of Aberdeen/University/Year 5 - Financial Technology/BU5526 - Portfolio Analysis/lecturenotes.tex"
+(c:/Users/rodmi/OneDrive - University of Aberdeen/University/Year 5 - Financial Technology/BU5526 - Portfolio Analysis/lecturenotes.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-10-26> (C:\Users\rodmi\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\rodmi\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\rodmi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box51
+) (lecturenotes.aux)
+\openout1 = `lecturenotes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+ [1
+
+{C:/Users/rodmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (lecturenotes.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `lecturenotes.toc'.
+
+ [1
+
+]
+Chapter 1.
+[2
+
+]
+Overfull \hbox (16.96895pt too wide) in paragraph at lines 54--55
+[]\OT1/cmr/bx/n/10.95 Arithmetical\OT1/cmr/m/n/10.95 : sum of observations divided by the number of observations
+ []
+
+
+Overfull \hbox (12.87006pt too wide) in paragraph at lines 65--66
+[]\OT1/cmr/bx/n/10.95 Equally weighted\OT1/cmr/m/n/10.95 : when all the observations have the same importance. 
+ []
+
+
+Overfull \hbox (3.75331pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/m/n/10.95 If we only have a sample, we need to reflect "impreciseness" by removing
+ []
+
+[3]
+Overfull \hbox (4.9926pt too wide) in paragraph at lines 103--104
+ \OT1/cmr/bx/n/10.95 Note:[] \OT1/cmr/m/n/10.95 Unbiased equations of these two indicators are slightly more complex,
+ []
+
+[4] [5]
+Overfull \hbox (6.09424pt too wide) in paragraph at lines 173--174
+[]\OT1/cmr/m/n/10.95 A negative covariance means the assets move in opposite directions. 
+ []
+
+
+Overfull \hbox (1.35071pt too wide) in paragraph at lines 180--181
+ \OT1/cmr/bx/n/10.95 Correlation and Portfolio Risk \OT1/cmr/m/n/10.95 The correlation among assets determine
+ []
+
+[6]
+Chapter 2.
+[7
+
+] (lecturenotes.aux) ) 
+Here is how much of TeX's memory you used:
+ 490 strings out of 477314
+ 9937 string characters out of 2827706
+ 353360 words of memory out of 3000000
+ 21699 multiletter control sequences out of 15000+600000
+ 475676 words of font info for 49 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 33i,6n,38p,359b,184s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmsy8.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr6.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmex10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmmi6.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmsy10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmmi8.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr8.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmmi10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi720\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi1037\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmr10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmbx10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi1244\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr17.pk>
+Output written on lecturenotes.pdf (8 pages, 114495 bytes).
+PDF statistics:
+ 364 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
