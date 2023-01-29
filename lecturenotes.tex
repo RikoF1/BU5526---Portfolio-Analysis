@@ -1,5 +1,13 @@
 \documentclass[11pt,a4paper]{report}
 \fontfamily{cmss}
+\hfuzz=9999pt % "fix" hbox overfull
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue
+}
 
 \begin{titlepage}
 \title{BU5526 - Portfolio Analysis \\ Lecture Notes}
@@ -15,9 +23,9 @@
 
 \chapter{Lecture 1}
 \section{Asset Pricing}
-\paragraph{Asset}
+\subsection{Asset}
 Something valuable that an entity owns, benefits from, or has use of, in generating income.
-\paragraph{Asset Pricing}
+\subsection{Asset Pricing}
 Needed to buy/sell at a fair price.
 \begin{itemize}
     \item Obtained by discovery process:
@@ -33,7 +41,7 @@ Needed to buy/sell at a fair price.
         \end{itemize}
 \end{itemize}
 
-\paragraph{How to price a stock:}
+\subsection{How to price a stock:}
 \begin{itemize}
     \item Dividend Discount Model;
     \item FCF Model;
@@ -47,8 +55,9 @@ Being able to estimate the required \textbf{rate of return} is everything you ne
 
 \section{Portfolio Management}
 \textbf{Prudent} administration of \textbf{investable} (liquid) assets, aimed at achieving an \textbf{optimum risk-reward ratio}.
+
 \section{Mathematical Concepts}
-\paragraph{Mean} an average of different observations.
+\subsection{Mean} An average of different observations.
 \begin{itemize}
     \item Useful to describe a population;
     \item \textbf{Arithmetical}: sum of observations divided by the number of observations (if with equal weights).
@@ -66,7 +75,7 @@ There is a reason to use arithmetical or geometrical mean.
     \item \textbf{Unequally weighted}: different importance for different observations.
 \end{itemize}
 
-\paragraph{Variance} seen as an extension of the mean.
+\subsection{Variance} Seen as an extension of the mean.
 \begin{itemize}
     \item Dispersion to the mean (higher/lower):
     \begin{itemize}
@@ -76,7 +85,7 @@ There is a reason to use arithmetical or geometrical mean.
     
 \end{itemize}
 
-\paragraph{Important Statistical Concept}
+\subsection{Important Statistical Concept}
 \begin{itemize}
     \item The formula is correct if we possess all the data on the population;
     \item If we only have a sample, we need to reflect "impreciseness" by removing "one degree of freedom".
@@ -84,19 +93,19 @@ There is a reason to use arithmetical or geometrical mean.
 \end{itemize}
 This will \textbf{always} be the case in finance.
 
-\paragraph{Standard Deviation}
+\subsection{Standard Deviation}
 \[\sigma_X = \sqrt[2]{\frac{(X_1 - \mu_n)^2 + (X_2 - \mu_n)^2 + ... + (X_n - \mu_n)^2}{(n-1)}} \]
 
-\paragraph{Skewness}
+\subsection{Skewness}
 Brings back the sign. A positive skewness means more positive-value and reversely.
 \[\sigma_X^3 = \frac{(X_1 - \mu_n)^3 + (X_2 - \mu_n)^3 + ... + (X_n - \mu_n)^3}{n} \]
 
-\paragraph*{Kurtosis}
+\subsection{Kurtosis}
 Outweighs extremes - dropping the sign.
 \[\sigma_X^4 = \frac{(X_1 - \mu_n)^4 + (X_2 - \mu_n)^4 + ... + (X_n - \mu_n)^4}{n} \]
 A large Kurtosis means a lot of extreme values.
 \begin{itemize}
-    \item To get a \textbf{Meaningful estimate}: needs to provide \textbf{excess} kurtosis.
+    \item To get a \textbf{meaningful estimate:} \textbf{excess} kurtosis needs to be provided.
     \item Kurtosis of a normal distribution is 3.
 \end{itemize}
 
@@ -104,10 +113,10 @@ A large Kurtosis means a lot of extreme values.
 
 \section{Assumptions of Mean-Variance Analysis}
 \begin{itemize}
-    \item Allows to describe different assets simply.
+    \item Allows describing different assets simply.
     \item Assumes returns are normally distributed.
 \end{itemize}
-\paragraph{Normal distribution}
+\subsection{Normal distribution}
 \begin{itemize}
     \item Its mean and median are equal;
     \item It's defined by two parameters, mean and variance;
@@ -125,45 +134,47 @@ A large Kurtosis means a lot of extreme values.
 \end{itemize}
 
 \section{Returns on Financial Assets}
-\paragraph{Holding period return:} Return from holding an asset for a specific period of time.
+\subsection{Holding period return} Return from holding an asset for a specific period of time.
 \[R = \frac{P_t - P_{t-1}}{P_{t-1}} + \frac{D_t}{P_{t-1}}\]
 Capital gain + Dividend yield \\
 Holding period returns = compound returns
 \[R = [(1 + r_1) \times (1 + r_2) \times (1+r_3)] - 1 \]
 
-\paragraph{Geometric Mean Return}
+\subsection{Geometric Mean Return}
 \[\overline{R} = \sqrt[T]{(1+r_{i_1}) \times (1+r_{i_2}) \times ... \times (1+r_{i_T})} - 1\]
-\paragraph{Annualized Return} These returns should be capitalized.
+\subsection{Annualized Return} These returns should be capitalized.
 \begin{itemize}
     \item Such as:
-    \[ r_{annual} = (1+r_{period})^C - 1\] with C being number of periods in a year.
+    \[ r_{annual} = (1+r_{period})^C - 1\] with C being the number of periods in a year.
 \end{itemize}
-\paragraph{Portfolio Return}
+
+\subsection{Portfolio Return}
 \begin{itemize}
     \item When several assets are combined into a portfolio, we can compute the portfolio return.
     \item Weighted average of the returns of individual assets
     \[ R_p = W_1 \times R_1 + W_2 \times R_2\]
 \end{itemize}
-\paragraph{Historical and Expected Returns}
+
+\subsection{Historical and Expected Returns}
 \begin{itemize}
     \item Computed from historical data.
     \item What the investor expects to earn.
     \item Historical returns are different from expected returns.
 \end{itemize}
 
-\paragraph{Ways of Calculating Expected Returns}
+\subsection{Ways of Calculating Expected Returns}
 \begin{itemize}
     \item Gut feeling;
     \item Modelling - calculated from a formula.
 \end{itemize}
 
-\paragraph{Standard deviation - Volatility}
+\subsection{Standard deviation - Volatility}
 \begin{itemize}
     \item Historical standard deviation;
     \item Defined as \textbf{risk} of equity return.
 \end{itemize}
 
-\paragraph*{Portfolio Variance}
+\subsection{Portfolio Variance}
 \begin{itemize}
     \item Cannot simply add up two variances.
     \item Covariance:
@@ -176,8 +187,8 @@ Holding period returns = compound returns
     \[ \sigma_v^2 = wCw^T \]
 \end{itemize}
 
-\paragraph*{Correlation and Portfolio Risk}
-The correlation among assets determine the porfolio's risk.
+\subsection{Correlation and Portfolio Risk}
+The correlation among assets determine the portfolio's risk.
 \begin{itemize}
     \item Is a measure of tendency for N investments to act similarly;
     \item Can range from $-$1 and $+$1.
